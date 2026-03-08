@@ -1,0 +1,40 @@
+@font-face {
+    font-family: horror;
+    src: url(Mystical\ Horror\ Collection\ 2\ Demo.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/1200x/9c/3a/41/9c3a4170e1c43e2cf74af4d373258952.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#line{
+    color: white;
+    font-family: horror;
+    font-size: 45px;
+    padding:100px 50px 40px 0px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 69, 2);
+    box-shadow: 10px 10px 10px;
+    align-self: center;
+    display: block;
+}
