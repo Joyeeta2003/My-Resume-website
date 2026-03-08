@@ -27,6 +27,7 @@ html,body{
     font-family: horror;
     font-size: 45px;
     padding:100px 50px 40px 0px;
+    text-shadow: 2px 2px 5px black;
 }
 button{
     padding: 10px 20px;
@@ -37,4 +38,8 @@ button{
     box-shadow: 10px 10px 10px;
     align-self: center;
     display: block;
+}
+button:hover{
+    background-color: orangered;
+    transform: scale(1.05);
 }
